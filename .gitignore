@@ -1,0 +1,10 @@
+.env*
+node_modules/
+.nuxt/
+.output/
+dist/
+*.pem
+*.key
+
+# left out: own repo with existing history + remote on a different GitHub account
+vendor-dashboard/

@@ -1,0 +1,37 @@
+{
+  "name": "neotrip-admin-frontend",
+  "version": "1.0.0",
+  "description": "NeoTrip Admin Dashboard Frontend",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@supabase/supabase-js": "^2.39.3",
+    "@vee-validate/zod": "^4.12.4",
+    "pinia": "^2.1.7",
+    "vee-validate": "^4.12.4",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vuetify": "^3.5.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.11.1",
+    "@pinia/nuxt": "^0.5.1",
+    "nuxt": "^3.10.0",
+    "sass": "^1.70.0",
+    "vite-plugin-vuetify": "^2.0.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  }
+}
